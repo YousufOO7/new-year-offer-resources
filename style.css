@@ -123,7 +123,7 @@ background-size: cover;
 }
 .midnight-title{
 color: rgb(255, 255, 255);
-font-family: Merriweather;
+font-family: "Merriweather", serif;
 font-size: 64px;
 font-weight: 900;
 line-height: 88px;
@@ -202,4 +202,90 @@ margin-top: 30px;
 border: none;
 }
 /* place date time box end here */
+/* image text start here */
+.image-container{
+   max-width: 1500px;
+   height: 463px;
+   margin: 0 auto;
+   margin-top: 120px;
+   margin-bottom: 120px;
+}
+.image-content{
+    display: flex;
+    justify-content: row;
+    align-items: center;
+}
+/* image text style */
+.image-text{
+ width: 33%;
+ margin-right: 50px;
 
+
+}
+.image-head{
+color: rgb(255, 0, 0);
+font-family: "Inter", sans-serif; 
+font-size: 15px;
+font-weight: 600;
+line-height: 29px;
+}
+.image-title{
+color: rgb(7, 2, 17);
+font-family: "Merriweather", serif;
+font-size: 30px;
+font-weight: 900;
+line-height: 60px;
+}
+.image-sub{
+ color: rgba(7, 2, 17, 0.6);
+ font-family: "Inter", sans-serif; 
+font-size: 15px;
+font-weight: 400;
+line-height: 32px;
+}
+/* image style */
+.image{
+width: 463px;
+height: 463px;
+margin-right: 100px;
+border: 15px solid rgb(255, 0, 0);
+border-radius: 50%;
+}
+.image-box{
+width: 364.84px;
+height: 364.84px;
+margin: 40px;
+}
+.image-box img {
+    width: 100%;
+    height: 100%;
+}
+/* image text two style */
+.image-text-two{ 
+width: 276px;
+height: 170px;
+margin-left: 115px; 
+}
+.image-header{
+color: rgb(255, 0, 0);
+font-family: "Inter", sans-serif; 
+font-size: 40px;
+font-weight: 700;
+line-height: 58px;
+}
+.image-subtitle{
+color: rgba(7, 2, 17, 0.6);
+font-family: "Inter", sans-serif; 
+font-size: 15px;
+font-weight: 400;
+line-height: 32px;
+}
+#image{
+width: 140px;
+height: 140px;
+margin-top: 45px;
+}
+#image img{
+    width: 100%;
+    height: 100%;
+}
