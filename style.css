@@ -31,7 +31,7 @@ body{
 }
 .banner-year{
 color: rgb(255, 255, 255);
-font-family: Merriweather;
+font-family: "Merriweather", serif;
 font-size: 30px;
 font-weight: 250;
 line-height: 35px;
@@ -289,3 +289,78 @@ margin-top: 45px;
     width: 100%;
     height: 100%;
 }
+/* image text end here */
+/* Holiday sell 50% start here */
+.holiday-container{
+width: 1500px;
+height: 986.07px;
+margin: 0 auto;
+margin-top: 120px;
+position: relative;
+}
+.style-color{
+width: 1500px;
+height: 229px;
+background-color: red;
+position: absolute;
+top: 77%;
+}
+/* holiday content style here */
+.holiday-content{
+width: 1068px;
+height: 260px;
+text-align: center;
+margin: 0 226px;
+}
+.holiday-head{
+color: rgb(7, 2, 17);
+font-family: "Inter", sans-serif; 
+font-size: 20px;
+font-weight: 500;
+line-height: 29px;
+margin-bottom: 16px;
+}
+.holiday-title{
+font-family: "Merriweather", serif;
+font-size: 72px;
+font-weight: 900;
+line-height: 91px;
+margin-bottom: 20px;
+}
+.holiday-text{
+color: rgba(7, 2, 17, 0.6);
+font-family: "Inter", sans-serif; 
+font-size: 15px;
+font-weight: 500;
+line-height: 32px;
+}
+/* holiday content image style */
+.holiday-content-images{
+max-width: 1500px;
+height: 662.07px;
+margin-top: 64px;
+position: absolute;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+/* left image style */
+.left-image{
+width: 796.46px;
+height: 662.07px;
+}
+.left-image img{
+    width: 100%;
+    height: 100%;
+}
+/* right image style */
+.right-image{
+width: 305.69px;
+height: 305.69px;
+margin: 100px 40px 270px 500px;
+}
+.right-image img{
+    width: 100%;
+    height: 100%;
+}
+/* Holiday sell 50% end here */
