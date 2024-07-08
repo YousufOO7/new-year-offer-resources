@@ -11,7 +11,7 @@ body{
 }
 /* banner container start here */
 .banner-container{
-    width: 1500px;
+    max-width: 1500px;
     height: 700px;
     margin: 0 auto;
     margin-top: 50px;
@@ -45,3 +45,53 @@ font-weight: 900;
 line-height: 85px;
 }
 /* banner container end here */
+/* 65% container start here */
+main > .first-section-container{
+    font-family: "Inter", sans-serif;
+}
+.first-section-container{
+max-width: 802.9px;
+height: 800px;
+margin: 0 auto;
+margin-top: 120px;
+}
+/* first section text style here */
+.section-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.section-head{
+color: rgb(255, 0, 0);
+font-family: "Inter", sans-serif;
+font-size: 88px;
+font-weight: 700;
+line-height: 107px;
+margin-bottom: 48px;
+}
+.section-title{
+color: rgb(255, 0, 0);
+font-family: "Inter", sans-serif;
+font-size: 19px;
+font-weight: 500;
+line-height: 29px;
+}
+.section-text{
+color: rgb(7, 2, 17);
+font-family: "Inter", sans-serif;
+font-size: 30px;
+font-weight: 700;
+line-height: 58px;
+margin-bottom: 48px;
+}
+/* first section image style */
+.section-image{
+width: 802.9px;
+height: 500px;
+}
+.section-image img{
+    width: 100%;
+    height: 100%;
+}
+/* first section container end here */
