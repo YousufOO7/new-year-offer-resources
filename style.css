@@ -161,3 +161,45 @@ margin-top: 60px;
     height:100%;
 }
 /* midnight party end here  */
+/* place date time box start */
+.text-container{
+max-width: 1500px;
+height: 482px;
+margin: 0 auto;
+margin-top: 120px;
+border-radius: 16px;
+background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+/* text content style */
+.text-content{
+width: 549px;
+height: 168px;
+text-align: center;
+}
+.text-content-sub{
+font-family: "Inter", sans-serif; 
+font-size: 32px;
+font-weight: 600;
+line-height: 56px;
+}
+span{
+    color: rgba(219, 9, 9, 0.959);
+}
+.text-btn{
+color: rgb(255, 255, 255);
+font-family: "Inter", sans-serif; 
+font-size: 15px;
+font-weight: 600;
+line-height: 24px;
+padding: 10px 20px 8px 20px;
+border-radius: 8px;
+background: rgb(255, 0, 0);
+margin-top: 30px;
+border: none;
+}
+/* place date time box end here */
+
